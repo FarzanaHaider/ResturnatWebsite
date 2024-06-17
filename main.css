@@ -1,0 +1,352 @@
+/* Product Section starts */
+
+.rating {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    align-items: center;
+}
+
+.item-name-rating{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-tag {
+    text-align: center;
+    padding: 60px;
+}
+
+.section-tag p {
+    color: var(--primary-color);
+    padding: 10px;
+}
+
+.rating p {
+    font-size: 13px;
+    padding: 6px;
+    padding-right: 20px;
+}
+
+.price button p {
+    color: white;
+}
+
+.price button {
+    background: var(--button-color);
+    padding: 14px 29px;
+    border-radius: 35px;
+}
+
+.item-info {
+    padding: 10px 20px;
+}
+
+.item {
+    border-radius: 35px;
+    background-color: white;
+}
+
+.food-items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.see-more button {
+    background: var(--button-color);
+    display: flex;
+    justify-content: center;
+    padding: 26px 29px;
+    gap: 10px;
+    border-radius: 45px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.see-more button p {
+    color: white;
+}
+
+.item img {
+    width: 100%;
+    height: 65%;
+    border-radius: 30px 30px 0px 0px;
+}
+/* Product Section ends */
+
+/* Service Section starts */
+
+.service-carts {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.cart {
+    width: 290px;
+    height: 310px;
+    text-align: center;
+    padding: 90px 40px 40px 40px;
+    border: 1px solid rgba(182, 182, 182, 1);
+    border-radius: 35px;
+}
+
+.cart-img img {
+    padding: 10px;
+    border-radius: 100%;
+    background-color: rgba(245, 221, 196, 0.75);
+}
+
+.cart h3 {
+    padding: 52px 0px;
+}
+
+.cart:hover {
+    /* Styles applied when hovering over the div */
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Example of adding a shadow on hover */
+    cursor: pointer; /* Change cursor to pointer to indicate interaction */
+}
+
+/* Service Section ends */
+
+/* Testimonial Section starts */
+
+.testi-cart {
+    height: 250px;
+    background-color: white;
+    text-align: center;
+    padding: 50px 20px;
+    border-radius: 35px;
+}
+
+.person-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-top: 30px;
+}
+
+.testi-info {
+    padding: 30px;
+}
+
+.person-img img {
+    border-radius: 100%;
+}
+
+.testi-food img {
+    width: 100%;
+    padding: 0px 0px 30px 30px;
+}
+
+.testimonial-main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+/* Testimonial Section starts */
+
+/* Subscribe Section starts */
+
+.subscribe {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: black;
+    margin: 40px 120px;
+    border-radius: 35px;
+}
+
+.sub-info h2 {
+    color: white;
+}
+
+.sub-info p {
+    color: white;
+    padding: 30px 0px;
+}
+
+.sub-info {
+    padding: 35px;
+}
+
+.sub-info h2 {
+    color: white;
+}
+
+.sub-info p {
+    color: white;
+    padding: 30px 0px;
+}
+
+.sub-info {
+    padding: 35px;
+}
+
+.subs-button {
+    background-color: white;
+    width: 500px;
+    height: 65px;
+    border-radius: 10px;
+}
+
+input.input {
+    align-items: center;
+    text-align: center;
+    padding: 20px 30px 18px 20px;
+    border-radius: 10px;
+    margin-top: 3px;
+    border: none;
+}
+
+.subs-button button {
+    background: var(--button-color);
+    padding: 10px 10px;
+    border-radius: 10px;
+    margin-left: 100px;
+}
+
+/* Subscribe Section ends */
+
+
+@media only screen and (min-width:200px) and (max-width:576px) {
+
+    div#food-items {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5px;
+    }
+    
+    .item {
+        width: auto;
+        height: auto;
+    }
+    
+    .price button {
+        padding: 0px 15px;
+    }
+
+    .section-tag {
+        padding: 12px;
+    }
+    
+    .item {
+        width: 100%;
+        height: fit-content;
+    }
+    
+    .item-info {
+        padding: 2px 5px;
+    }
+    
+    .rating img {
+        width: 100%;
+    }
+    
+    .item-name-rating {
+        flex-direction: column;
+        gap:10px;
+    }div#food-items {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5px;
+    }
+    
+    .item {
+        width: auto;
+        height: auto;
+    }
+    
+    .price button {
+        padding: 0px 15px;
+    }
+
+    .section-tag {
+        padding: 12px;
+    }
+    
+    .item {
+        width: 100%;
+        height: fit-content;
+    }
+    
+    .item-info {
+        padding: 2px 5px;
+    }
+    
+    .rating img {
+        width: 100%;
+    }
+    
+    .item-name-rating {
+        flex-direction: column;
+        gap:10px;
+    }
+
+    .item-info {
+        text-align: center;
+    }
+    
+    .rating {
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .price {
+        padding: 10px 0;
+    }
+
+    .service-carts {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
+    
+    .cart {
+        width: 100%;
+        height: auto;
+        padding: 20px 10px;
+    }
+    
+    .cart h3 {
+        padding: 20px 0px;
+    }
+    
+    .testimonial-main {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+    
+    section.subscribe {
+        grid-template-columns: repeat(1,1fr);
+        margin: 0px 0px;
+        padding-bottom: 65px;
+    }
+    
+    .subs-img img {
+        width: 100%;
+    }
+    
+    .subs-img {
+        width: 0;
+    }
+    
+    .sub-info {
+        padding: 5px;
+    }
+
+    div#subs-button {
+        width: 100%;
+    }
+    
+    .subs-button button {
+        margin-left: 0px;
+    }
+    
+    input.input {
+        padding: 24px 9px;
+    }
+
+}
